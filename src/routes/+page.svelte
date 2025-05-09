@@ -51,8 +51,6 @@
 		{ name: 'Fish Fillets', image: '/tilapiaFillet.jpg', url: '/shop/fillets' },
 		{ name: 'Specialty Items', image: '/tilapiaSteak.webp', url: '/shop/specialty' }
 	];
-
-	
 </script>
 
 <svelte:head>
@@ -63,7 +61,6 @@
 	/>
 </svelte:head>
 
-
 <main>
 	<!-- Hero Section -->
 	<section
@@ -71,7 +68,7 @@
 		style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/tilapias.jpg')"
 	>
 		<div class="relative z-10 container mx-auto px-6 text-white">
-			<h1 class="mb-4 text-4xl leading-tight font-bold md:text-5xl">
+			<h1 class="mb-4 text-4xl leading-tight font-bold tracking-tight md:text-5xl">
 				Fresh Tilapia, Just a Tap Away!
 			</h1>
 			<p class="mb-8 max-w-xl text-xl">
@@ -244,113 +241,3 @@
 		</div>
 	</section>
 </main>
-
-<footer class="bg-primary-dark pt-12 text-white">
-	<div class="container mx-auto px-6">
-		<div class="mb-12 grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
-			<div>
-				<h2 class="mb-4 text-2xl font-bold">Nyanam Fish</h2>
-				<p class="text-primary-light mb-4">
-					From Lake Victoria to your plate - fresh, fried, and delivered.
-				</p>
-			</div>
-
-			<div>
-				<h3
-					class="after:bg-accent relative mb-6 pb-2 text-lg font-bold after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-10"
-				>
-					Quick Links
-				</h3>
-				<ul class="space-y-3">
-					<li>
-						<a href="/" class="text-primary-light transition-colors hover:text-white">Home</a>
-					</li>
-					<li>
-						<a href="/shop" class="text-primary-light transition-colors hover:text-white"
-							>Online Shop</a
-						>
-					</li>
-					<li>
-						<a href="/about" class="text-primary-light transition-colors hover:text-white">About</a>
-					</li>
-					<li>
-						<a href="/contact" class="text-primary-light transition-colors hover:text-white"
-							>Contact</a
-						>
-					</li>
-					<li>
-						<a href="/blog" class="text-primary-light transition-colors hover:text-white">Blog</a>
-					</li>
-				</ul>
-			</div>
-
-			<div>
-				<h3
-					class="after:bg-accent relative mb-6 pb-2 text-lg font-bold after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-10"
-				>
-					Contact Us
-				</h3>
-				<ul class="text-primary-light space-y-3">
-					<li class="flex items-start">
-						<i class="bi bi-geo-alt text-accent mt-1 mr-2"></i>
-						<span>Nairobi, Kenya</span>
-					</li>
-					<li class="flex items-start">
-						<i class="bi bi-clock text-accent mt-1 mr-2"></i>
-						<span>09:00 - 23:00</span>
-					</li>
-					<li class="flex items-start">
-						<i class="bi bi-telephone text-accent mt-1 mr-2"></i>
-						<span>+254 (044) 756-16-52</span>
-					</li>
-					<li class="flex items-start">
-						<i class="bi bi-envelope text-accent mt-1 mr-2"></i>
-						<span>info@nyanamfish.com</span>
-					</li>
-				</ul>
-			</div>
-
-			<div>
-				<h3
-					class="after:bg-accent relative mb-6 pb-2 text-lg font-bold after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-10"
-				>
-					Follow Us
-				</h3>
-				<div class="flex space-x-4">
-					<a
-						href="/#"
-						aria-label="Facebook"
-						class="hover:bg-accent flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors"
-					>
-						<i class="bi bi-facebook"></i>
-					</a>
-					<a
-						href="/#"
-						aria-label="Twitter"
-						class="hover:bg-accent flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors"
-					>
-						<i class="bi bi-twitter-x"></i>
-					</a>
-					<a
-						href="/#"
-						aria-label="Instagram"
-						class="hover:bg-accent flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors"
-					>
-						<i class="bi bi-instagram"></i>
-					</a>
-					<a
-						href="/#"
-						aria-label="Youtube"
-						class="hover:bg-accent flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors"
-					>
-						<i class="bi bi-youtube"></i>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="border-primary text-primary-light border-t py-6 text-center text-sm">
-		<p>&copy; 2025 Nyanam Fish. All Rights Reserved.</p>
-	</div>
-</footer>

@@ -2,8 +2,17 @@
 @plugin '@tailwindcss/typography';
 
 @theme {
-    --color-primary: #2a6b94; /* Primary blue representing Lake Victoria */
-    --color-primary-dark: #1c4b69; /* Darker blue for headers and emphasis */
-    --color-primary-light: #89c5e3; /* Light blue for highlights and accents */
-    --color-accent: #f8a100; /* Orange accent for CTAs and sale badges */
+	--color-primary: #2a6b94; /* Primary blue representing Lake Victoria */
+	--color-primary-dark: #1c4b69; /* Darker blue for headers and emphasis */
+	--color-primary-light: #89c5e3; /* Light blue for highlights and accents */
+	/* --color-accent: #f8a100; Orange accent for CTAs and sale badges */
+	--color-accent: #7e412f; /* Orange accent for CTAs and sale badges */
+
+	--font-rubik: 'Rubik', sans-serif;
+}
+
+@layer base {
+	body {
+		font-family: 'Rubik', sans-serif;
+	}
 }
